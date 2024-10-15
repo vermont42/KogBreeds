@@ -33,9 +33,6 @@ enum Loader {
 
     for breed in breeds {
       breed.imageURLs = imageURLs[breed.name] ?? []
-      for url in breed.imageURLs {
-        print(url)
-      }
     }
 
     return breeds
